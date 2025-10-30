@@ -1,11 +1,10 @@
-import React from 'react'
 import { navLinks } from '../constants'
 
 const NavBar = () => {
     return (
-        <header>
+        <header >
             <nav>
-                <img src="/logo.svg" alt="Mustang Logo" />
+                <img src="/logo.png" alt="Mustang Logo" className="h-10 w-auto" />
                 <ul>
                     {navLinks.map(({label}) => (
                         <li key={label}>
