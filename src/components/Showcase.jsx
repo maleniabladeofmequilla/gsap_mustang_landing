@@ -19,7 +19,7 @@ const Showcase = () => {
 
             timeline
                 .to('.mask img', {
-                    transform: 'scale(1.1)'
+                    transform: 'scale(1.5)'
                 }).to('.content', { opacity: 1, y: 0, ease: 'power1.in' });
         }
     }, [isTablet])
@@ -40,10 +40,10 @@ const Showcase = () => {
                 <div className="space-y-6 mt-7 pe-10">
                     <p>
                       Boss Mustang was heavily modified for racing. Though not formally known as the 
-                      <span className="text-white"> "Boss 429 engine" </span>
+                      <span className="text-blue-400"> "Boss 429 engine" </span>
                          by Ford the way the Boss 302 engine was, it acquired that informal designation from its introduction in the 1969 Boss 429 Mustang.                 </p>
                 </div >
-                <p className="text-orange-400 font-semibold">Learn more about the Beast...</p>
+                <p className="text-red-400 font-semibold">Learn more about the Beast...</p>
                 </div>
                 <div className="max-w-2xs space-y-14">
                   <div className="space-y-4">

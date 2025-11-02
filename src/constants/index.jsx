@@ -37,15 +37,24 @@ const performanceImages = [
 ];
 
 const performanceImgPositions = [
-  { id: "p1", left: -5, bottom: 70, transform: "rotate(-8deg)", zIndex: 2 },
-  { id: "p2", right: 0, bottom: 75, transform: "rotate(4deg)", zIndex: 2 },
-  { id: "p3", right: -5, bottom: 40, transform: "rotate(2deg)", zIndex: 3 },
-  { id: "p4", right: -5, bottom: 0, transform: "rotate(5deg)", zIndex: 4 },
-  { id: "p5", left: 20, bottom: 50, transform: "scale(1.1)", zIndex: 5 },
-  { id: "p6", left: -10, bottom: 35, transform: "rotate(-4deg)", zIndex: 3 },
-  { id: "p7", left: -8, bottom: 5, transform: "rotate(-6deg)", zIndex: 4 },
+    {id:"p1", left: -5, bottom: 65, transform: "rotate(-8deg)", zIndex: 3, }, 
+    { id: "p2", right: 0, bottom: 75, transform: "rotate(4deg)", zIndex: 2, }, 
+    { id: "p3", right: -10, bottom: 35, transform: "rotate(2deg)", zIndex: 3, }, 
+    { id: "p4", right: -10, bottom: -0, transform: "rotate(5deg)", zIndex: 4, },
+    { id: "p5", left: 20, bottom: 50, transform: "scale(1.1)", zIndex: 5, }, 
+    { id: "p6", left: -20, bottom: 35, transform: "rotate(-4deg)", zIndex: 3, }, 
+    { id: "p7", left: -15, bottom: 0, transform: "rotate(-6deg)", zIndex: 4, },
 ];
 
+const performanceImgPositionsMobile = [
+  { id: "p1", left: 20, bottom: 50, transform: "scale(0.9)", zIndex: 2 },
+  { id: "p2", right: 15, bottom: 60, transform: "scale(0.9)", zIndex: 3 },
+  { id: "p3", right: 13, bottom: 40, transform: "scale(0.9)", zIndex: 2 },
+  { id: "p4", right: 10, bottom: 5, transform: "scale(0.9)", zIndex: 4 },
+  { id: "p5", left: "50%", bottom: 45, transform: "translateX(-50%) scale(1)", zIndex: 5 },
+  { id: "p6", left: 10, bottom: 30, transform: "scale(0.9)", zIndex: 2 },
+  { id: "p7", left: 15, bottom: 5, transform: "scale(0.9)", zIndex: 3 },
+];
 
 
 const features = [
@@ -110,4 +119,5 @@ export {
     noChangeParts,
     performanceImages,
     performanceImgPositions,
+    performanceImgPositionsMobile,
 };
