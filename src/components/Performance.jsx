@@ -8,9 +8,8 @@ import {useMediaQuery} from "react-responsive";
 const Performance = () => {
     const isMobile = useMediaQuery({ query: "(max-width: 1024px)" });
     const positions = isMobile ? performanceImgPositionsMobile : performanceImgPositions;
-    const sectionRef = useRef(null);
-    
 
+    const sectionRef = useRef(null);
 
     useGSAP(
         () => {
@@ -34,6 +33,8 @@ const Performance = () => {
                 }
             );
 
+            if (isMobile) return;
+
             const tl = gsap.timeline({
                 defaults: { duration: 2, ease: "power1.inOut", overwrite: "auto" },
                 scrollTrigger: {
@@ -46,6 +47,7 @@ const Performance = () => {
             });
 
             positions.forEach((item) => {
+
                 if (item.id === "p5") return;
 
                 const selector = `.${item.id}`;

@@ -1,29 +1,10 @@
 const navLinks = [
+    { label: "Official" },
     { label: "Store" },
-    { label: "Mac" },
-    { label: "iPhone" },
-    { label: "Watch" },
-    { label: "Vision" },
-    { label: "AirPods" },
-];
-
-const noChangeParts = [
-    "Object_84",
-    "Object_37",
-    "Object_34",
-    "Object_12",
-    "Object_80",
-    "Object_35",
-    "Object_36",
-    "Object_13",
-    "Object_125",
-    "Object_76",
-    "Object_33",
-    "Object_42",
-    "Object_58",
-    "Object_52",
-    "Object_21",
-    "Object_10",
+    { label: "Boss 302" },
+    { label: "Boss 429" },
+    { label: "About" },
+    { label: "Extra" },
 ];
 
 const performanceImages = [
@@ -56,51 +37,47 @@ const performanceImgPositionsMobile = [
   { id: "p7", left: 15, bottom: 5, transform: "scale(0.9)", zIndex: 3 },
 ];
 
-
 const features = [
-    {
-        id: 1,
-        icon: "/feature-icon1.svg",
-        highlight: "Email AI.",
-        text: "Summarize and draft replies to emails instantly, so you stay on top of your inbox.",
-        styles: "left-5 md:left-20 top-[20%] opacity-0 translate-y-5",
-    },
-    {
-        id: 2,
-        icon: "/feature-icon2.svg",
-        highlight: "Image AI.",
-        text: "Generate or edit images with ease. Just type what you imagine, and let AI bring it to life.",
-        styles: "right-5 md:right-20 top-[30%] opacity-0 translate-y-5",
-    },
-    {
-        id: 3,
-        icon: "/feature-icon3.svg",
-        highlight: "Summarize AI.",
-        text: "Turn long articles, reports, or notes into clear, bite-sized summaries in seconds.",
-        styles: "left-5 md:left-20 top-[50%] opacity-0 translate-y-5",
-    },
-    {
-        id: 4,
-        icon: "/feature-icon4.svg",
-        highlight: "AirDrop.",
-        text: "Wirelessly share photos, large files, and more between your iPhone, your Mac, & other devices.",
-        styles: "right-5 md:right-20 top-[70%] opacity-0 translate-y-5",
-    },
-    {
-        id: 5,
-        icon: "/feature-icon5.svg",
-        highlight: "Writing Tool.",
-        text: "Write smarter and faster, whether it’s blogs, essays, or captions, AI helps polish your words.",
-        styles: "left-5 md:left-20 top-[90%] opacity-0 translate-y-5",
-    },
-];
-
-const featureSequence = [
-    { videoPath: "/videos/feature-1.mp4", boxClass: ".box1", delay: 1 },
-    { videoPath: "/videos/feature-2.mp4", boxClass: ".box2", delay: 0 },
-    { videoPath: "/videos/feature-3.mp4", boxClass: ".box3", delay: 0 },
-    { videoPath: "/videos/feature-4.mp4", boxClass: ".box4", delay: 0 },
-    { videoPath: "/videos/feature-5.mp4", boxClass: ".box5", delay: 0 },
+  {
+    id: 1,
+    icon: "/feature-icon1.svg",
+    highlight: "Born to Race. ",
+    text: "Created to dominate the Trans-Am series, the Boss Mustangs were precision-built for track performance.",
+    size: "w-8 h-8",
+    styles: "left-5 md:left-20 top-[20%] opacity-0 translate-y-5",
+  },
+  {
+    id: 2,
+    icon: "/feature-icon2.svg",
+    highlight: "Unmatched Power. ",
+    text: "The Boss 429’s hand-assembled 7.0L V8 engine delivered raw horsepower that redefined American muscle.",
+    size: "w-8 h-8",
+    styles: "right-5 md:right-20 top-[30%] opacity-0 translate-y-5",
+  },
+  {
+    id: 3,
+    icon: "/feature-icon3.svg",
+    highlight: "Iconic Design. ",
+    text: "Functional hood scoops, wide stance, and unique striping made the Boss instantly recognizable on and off the track.",
+    size: "w-8 h-8",
+    styles: "left-5 md:left-20 top-[50%] opacity-0 translate-y-5",
+  },
+  {
+    id: 4,
+    icon: "/feature-icon4.svg",
+    highlight: "Precision Handling. ",
+    text: "Race-tuned suspension and front spoiler offered stability at speed — a blend of beauty and control.",
+    size: "w-8 h-8",
+    styles: "right-5 md:right-20 top-[70%] opacity-0 translate-y-5",
+  },
+  {
+    id: 5,
+    icon: "/feature-icon5.svg",
+    highlight: "Timeless Legacy.",
+    text: "From 1969 to today, the Boss name continues to inspire generations of car lovers and racers alike.",
+    size: "w-8 h-8",
+    styles: "left-5 md:left-20 top-[90%] opacity-0 translate-y-5",
+  },
 ];
 
 const footerLinks = [
@@ -113,10 +90,8 @@ const footerLinks = [
 
 export {
     features,
-    featureSequence,
     footerLinks,
     navLinks,
-    noChangeParts,
     performanceImages,
     performanceImgPositions,
     performanceImgPositionsMobile,

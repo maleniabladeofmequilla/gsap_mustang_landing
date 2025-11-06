@@ -11,9 +11,8 @@ Title: 70' Mustang (Stylized)
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-exportdefault function 70_mustang(props) {
-  const { nodes, materials } = useGLTF('/models/70_mustang-transformed.glb')
-  const texture = useTexture('/screen.png');
+export default function Mustang_both(props) {
+  const { nodes, materials } = useGLTF('/models/Mustang_both-transformed.glb')
 
   return (
     <group {...props} dispose={null}>
@@ -23,10 +22,8 @@ exportdefault function 70_mustang(props) {
       <mesh geometry={nodes.Object_6.geometry} material={materials.S_Mustang_outline} />
       <mesh geometry={nodes.Object_8.geometry} material={materials.Material} />
       <mesh geometry={nodes.Object_10.geometry} material={materials['Material.001']} />
-      <meshBasicMaterial map={texture} />
-
     </group>
   )
 }
 
-useGLTF.preload('/models/70_mustang-transformed.glb')
+useGLTF.preload('/models/Mustang_both-transformed.glb')
