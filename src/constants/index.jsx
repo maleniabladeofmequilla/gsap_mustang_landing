@@ -27,24 +27,14 @@ const performanceImgPositions = [
     { id: "p7", left: -15, bottom: 0, transform: "rotate(-6deg)", zIndex: 4, },
 ];
 
-const performanceImgPositionsMobile = [
-  { id: "p1", left: 20, bottom: 50, transform: "scale(0.9)", zIndex: 2 },
-  { id: "p2", right: 15, bottom: 60, transform: "scale(0.9)", zIndex: 3 },
-  { id: "p3", right: 13, bottom: 40, transform: "scale(0.9)", zIndex: 2 },
-  { id: "p4", right: 10, bottom: 5, transform: "scale(0.9)", zIndex: 4 },
-  { id: "p5", left: "50%", bottom: 45, transform: "translateX(-50%) scale(1)", zIndex: 5 },
-  { id: "p6", left: 10, bottom: 30, transform: "scale(0.9)", zIndex: 2 },
-  { id: "p7", left: 15, bottom: 5, transform: "scale(0.9)", zIndex: 3 },
-];
-
 const features = [
   {
     id: 1,
     icon: "/feature-icon1.svg",
     highlight: "Born to Race. ",
-    text: "Created to dominate the Trans-Am series, the Boss Mustangs were precision-built for track performance.",
+    text: "Created to dominate the Trans-Am series, the Boss Mustangs were precision built for track performance.",
     size: "w-8 h-8",
-    styles: "left-5 md:left-20 top-[20%] opacity-0 translate-y-5",
+    styles: "left-5 md:left-30 top-[30%] opacity-0 translate-y-5",
   },
   {
     id: 2,
@@ -52,7 +42,7 @@ const features = [
     highlight: "Unmatched Power. ",
     text: "The Boss 429’s hand-assembled 7.0L V8 engine delivered raw horsepower that redefined American muscle.",
     size: "w-8 h-8",
-    styles: "right-5 md:right-20 top-[30%] opacity-0 translate-y-5",
+    styles: "right-5 md:right-40 top-[40%] opacity-0 translate-y-5",
   },
   {
     id: 3,
@@ -60,15 +50,15 @@ const features = [
     highlight: "Iconic Design. ",
     text: "Functional hood scoops, wide stance, and unique striping made the Boss instantly recognizable on and off the track.",
     size: "w-8 h-8",
-    styles: "left-5 md:left-20 top-[50%] opacity-0 translate-y-5",
+    styles: "left-5 md:left-30 top-[50%] opacity-0 translate-y-5",
   },
   {
     id: 4,
     icon: "/feature-icon4.svg",
     highlight: "Precision Handling. ",
-    text: "Race-tuned suspension and front spoiler offered stability at speed — a blend of beauty and control.",
+    text: "Race tuned suspension and front spoiler offered stability at speed, a blend of beauty and control.",
     size: "w-8 h-8",
-    styles: "right-5 md:right-20 top-[70%] opacity-0 translate-y-5",
+    styles: "right-5 md:right-40 top-[70%] opacity-0 translate-y-5",
   },
   {
     id: 5,
@@ -76,7 +66,7 @@ const features = [
     highlight: "Timeless Legacy.",
     text: "From 1969 to today, the Boss name continues to inspire generations of car lovers and racers alike.",
     size: "w-8 h-8",
-    styles: "left-5 md:left-20 top-[90%] opacity-0 translate-y-5",
+    styles: "left-5 md:left-30 top-[90%] opacity-0 translate-y-5",
   },
 ];
 
@@ -94,5 +84,4 @@ export {
     navLinks,
     performanceImages,
     performanceImgPositions,
-    performanceImgPositionsMobile,
 };

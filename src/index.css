@@ -344,10 +344,10 @@ body {
             @apply font-semibold text-2xl;
           }
 
-        .apple-gradient {
-          @apply p-10 rounded-3xl flex items-center gap-7 relative;
+        .yellow-gradient {
+          @apply h-[20rem] p-10 rounded-3xl flex items-center gap-7 relative;
 
-          background: #1d1d1f;
+          background: #252410;
           background-clip: padding-box;
           border: 3px solid transparent;
 
@@ -367,10 +367,10 @@ body {
             span {
               background: linear-gradient(
                 91deg,
-                #969b00 0%,
-                #ffc464 42%,
-                #79f241 74%,
-                #00eb04 100%
+                #ffbb1e 0%,
+                #886b0d 42%,
+                #f2d241 74%,
+                #c8eb00 100%
               );
               background-clip: text;
               -webkit-background-clip: text;
@@ -381,7 +381,7 @@ body {
         }
 
         div:last-of-type {
-          @apply h-full bg-[#1D1D1F] p-10 2xl:pt-32 lg:pt-20 rounded-3xl;
+          @apply h-[20em] bg-[#2e1111] p-10 2xl:pt-32 lg:pt-20 rounded-3xl;
 
           p {
             @apply font-semibold text-2xl;
@@ -406,10 +406,6 @@ body {
 
       p {
         @apply text-sm font-medium;
-
-        span {
-          @apply text-primary mx-0.5;
-        }
       }
     }
 
@@ -424,9 +420,29 @@ body {
         @apply lg:divide-x flex flex-col lg:flex-row gap-2.5;
 
         li {
-          @apply lg:px-5 cursor-pointer hover:text-primary transition-all duration-300 ease-in-out;
+          @apply lg:px-5 cursor-pointer hover:text-red-600 transition-all duration-300 ease-in-out;
         }
       }
     }
+  }
+}
+
+@layer utilities {
+  .hover-red-glow {
+    @apply transition-all duration-300 ease-in-out 
+           hover:text-red-500 hover:drop-shadow-[0_0_8px_#ff1a1a];
+  }
+
+  .hover-zoom-red {
+    @apply transition-transform duration-500 ease-in-out
+           hover:scale-105 hover:shadow-[0_0_25px_#ff1a1a];
+  }
+
+  .hover-tilt {
+    transition: transform 0.4s ease-in-out;
+  }
+  .hover-tilt:hover {
+    transform: scale(1.05) rotate3d(1, 1, 0, 6deg);
+    filter: drop-shadow(0 0 20px #ff1a1a);
   }
 }

@@ -66,7 +66,7 @@ const Features = () => {
 
       <Canvas id="f-canvas" camera={{ position: [0, 0, 5], fov: 45 }}>
         <StudioLights />
-        <ambientLight intensity={0.6} />
+        <ambientLight intensity={0.06} />
         <ModelScroll />
       </Canvas>
 

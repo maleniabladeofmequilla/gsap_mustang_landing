@@ -21,7 +21,9 @@ const Highlights = () => {
 
     return (
         <section id="highlights">
-            <h2>Take A Look.</h2>
+            <h2>Racing History of Boss.</h2>
+            <h3 className="hover-red-glow">Born to Race . Built to Rule</h3>
+
 
             <div className="masonry">
                 <div className="left-column">
@@ -35,13 +37,13 @@ const Highlights = () => {
                     </div>
                 </div>
                 <div className="right-column">
-                    <div className="apple-gradient"><p>The Boss 302 most commonly refers to a high-performance Ford Mustang model, <br />
-                            <span>produced in the late 1960s and 1970s for SCCA Trans-Am racing homologation.</span></p>
+                    <div className="yellow-gradient"><p>The Boss 302 most commonly refers to a high performance Ford Mustang model, produced in the <br />
+                            <span>late 1960s and 1970s</span> for SCCA <span>Trans-Am racing homologation.</span></p>
                     </div>
                     <div>
-                        <p>The Boss 429 is a high-performance variant of the Ford Mustang produced in 1969 and 1970,notable for its race-designed 429 cubic-inch
+                        <p>The Boss 429 is a high performance variant of the Ford Mustang produced in 1969 and 1970,notable for its race designed 429 cubic-inch
                             <span className="red-gradient">{' '}(7.0 L){' '}</span>
-                            semi-hemispherical head V8 engine
+                            semi hemispherical head V8 engine
                             <span className="red-gradient">{' '}(built for NASCAR homologation.)
                             </span></p>
                     </div>
