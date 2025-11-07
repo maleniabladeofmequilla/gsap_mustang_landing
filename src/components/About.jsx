@@ -32,7 +32,7 @@ const About = ({ isOpen, onClose }) => {
             <h3 className="text-lg font-semibold text-red-500 mt-4 mb-1">Disclaimer</h3>
             <p className="text-gray-400 text-xs leading-relaxed">
               This project was developed for educational and creative purposes. Some assets, including the 
-              <span className="text-white font-medium"> introduction video, 3D model, and select debugging or refinement steps</span>, were assisted using AI tools such as <span className="text-red-400">Gemini, ChatGPT, Meshy AI</span> and <span className="text-red-400">(AI-based generation platforms)</span>.
+              <span className="text-white font-medium"> introduction video, 3D model, and select debugging or refinement steps</span>, were assisted using AI tools such as <span className="text-red-400">Gemini, ChatGPT and Meshy AI</span> <span>(AI-based generation platforms)</span>.
               <br /><br />
               All images and clips showcased here were sourced from freely available public domains such as 
               <span className="text-white font-medium"> Pinterest, YouTube, and similar free repositories</span>.  
