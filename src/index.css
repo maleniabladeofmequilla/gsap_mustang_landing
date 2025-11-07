@@ -427,7 +427,7 @@ body {
   }
 }
 
-@layer utilities {
+  @layer utilities {
   .hover-red-glow {
     @apply transition-all duration-300 ease-in-out 
            hover:text-red-500 hover:drop-shadow-[0_0_8px_#ff1a1a];
@@ -444,5 +444,29 @@ body {
   .hover-tilt:hover {
     transform: scale(1.05) rotate3d(1, 1, 0, 6deg);
     filter: drop-shadow(0 0 20px #ff1a1a);
+  }
+
+  .animate-fadeIn {
+    animation: fadeIn 0.35s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px) scale(0.98);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  @keyframes redGlow {
+    0%, 100% { box-shadow: 0 0 10px rgba(255, 0, 0, 0.4); }
+    50% { box-shadow: 0 0 25px rgba(255, 0, 0, 0.8); }
+  }
+
+  .animate-redGlow {
+    animation: redGlow 2s infinite;
   }
 }

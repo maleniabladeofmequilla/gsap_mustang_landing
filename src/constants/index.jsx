@@ -1,10 +1,9 @@
 const navLinks = [
-    { label: "Official" },
-    { label: "Store" },
-    { label: "Boss 302" },
-    { label: "Boss 429" },
-    { label: "About" },
-    { label: "Extra" },
+  { label: "Official", link: "https://www.ford.com/mustang/" },
+  { label: "Store", link: "https://shop.ford.com/" },
+  { label: "Boss 302", link: "https://en.wikipedia.org/wiki/Boss_302_Mustang" },
+  { label: "Boss 429", link: "https://en.wikipedia.org/wiki/Boss_429_Mustang" },
+  { label: "About", },
 ];
 
 const performanceImages = [

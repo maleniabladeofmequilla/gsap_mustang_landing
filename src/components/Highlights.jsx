@@ -28,12 +28,12 @@ const Highlights = () => {
             <div className="masonry">
                 <div className="left-column">
                     <div>
-                        <img src="/ford-mustang.png " alt="mustang" className="h-40 w-auto -ml-7" />
-                        <p className="ml-22" >Boss 302</p>
+                        <img src="/ford-mustang.png " alt="mustang" className="h-40 w-auto" />
+                        <p className=" mt-10" >Boss 302</p>
                     </div>
                     <div>
-                        <img src="/speed.svg" alt="speed" className="h-10 -mt-50 ml-5" />
-                        <p className="-mt-50">Boss 429</p>
+                        <img src="/speed.svg" alt="speed" className="h-10 -mt-20 ml-5" />
+                        <p className="-mt-20">Boss 429</p>
                     </div>
                 </div>
                 <div className="right-column">
