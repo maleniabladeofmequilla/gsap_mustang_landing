@@ -2,7 +2,7 @@
 <img src="https://img.icons8.com/external-tal-revivo-filled-tal-revivo/96/external-markdown-a-lightweight-markup-language-with-plain-text-formatting-syntax-logo-filled-tal-revivo.png" align="right" width="30%" style="margin: -20px 0 0 20px;">
 <h1>GSAP_MUSTANG_LANDING</h1>
 <p align="left">
-	<em><code>❯ REPLACE-ME</code></em>
+	<em><code>❯GSAP_MUSTANG_LANDING is an immersive, 3D interactive landing page dedicated to the legendary Ford Mustang.</code></em>
 </p>
 <p align="left">
 	<img src="https://img.shields.io/github/license/maleniabladeofmequilla/gsap_mustang_landing?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
@@ -38,13 +38,23 @@
 
 ##  Overview
 
-<code>❯ REPLACE-ME</code>
+<code>❯Built with React and Three.js (via React Three Fiber), it features a real-time 3D showroom that allows users to explore detailed models of the Mustang Boss 302 and Boss 429. The experience is elevated by GSAP (GreenSock Animation Platform), which powers smooth, scroll-driven animations and cinematic transitions, creating a modern and high-performance web experience.</code>
 
 ---
 
 ##  Features
 
-<code>❯ REPLACE-ME</code>
+<code>❯🏎️ Interactive 3D Showroom: Fully rendered 3D models of the Mustang Boss 302 and 429 that users can view from different angles.
+
+🔄 Model Switcher: A dynamic state management system (Redux/Context) allowing seamless toggling between different car models and configurations without reloading.
+
+✨ Cinematic Animations: Advanced scroll-triggered animations and text reveals powered by GSAP, ensuring a smooth user journey down the page.
+
+💡 Realistic Lighting: Custom Three.js studio lighting setup (StudioLights.jsx) to enhance the metallic reflections and curves of the vehicles.
+
+📱 Fully Responsive: Adaptive layout that maintains the 3D experience and layout integrity across desktop and mobile devices.
+
+⚡ High Performance: Optimized asset loading with Vite for near-instant transitions and high frame rates.</code>
 
 ---
 
@@ -380,7 +390,7 @@ Run gsap_mustang_landing using the following command:
 **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
 ```sh
-❯ npm start
+❯ npm run dev
 ```
 
 
@@ -453,6 +463,5 @@ This project is protected under the [SELECT-A-LICENSE](https://choosealicense.co
 
 ##  Acknowledgments
 
-- List any resources, contributors, inspiration, etc. here.
 
 ---
